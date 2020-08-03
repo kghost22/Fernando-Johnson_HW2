@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Assignment</title>
+</head>
+<body>
+    <h2 id="time">Click here to check the Time!!!</h2>
+
+    <button id="time2">GET DATE</button>
+
+
+    <h2 id="date"></h2>
+
+    <script>
+        document.getElementById("time2").addEventListener("click", function(){
+        document.getElementById("date").innerHTML= Date()
+        document.getElementById("time").innerHTML= "After the Click"
+        })
+
+    </script>
+</body>
+</html>
